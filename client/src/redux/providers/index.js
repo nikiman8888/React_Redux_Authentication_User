@@ -1,4 +1,4 @@
-import { LOGIN_USER, LOGOUT_USER, CHECK_AUTHENTICATION, LOGIN_SUCCESS } from '../constants/index';
+import { LOGIN_USER, LOGOUT_USER, CHECK_AUTHENTICATION } from '../constants/index';
 
 const initialState = {
     currentUser:{},

@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Home.css';
-import { checkAuthentication } from '../../redux/actions/index';
-import { connect } from 'react-redux';
 
 function Home() {
     return (

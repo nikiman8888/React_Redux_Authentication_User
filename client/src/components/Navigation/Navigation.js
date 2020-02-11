@@ -3,7 +3,7 @@ import './Navigation.css';
 import { Link } from 'react-router-dom';
 import { logoutUser } from '../../redux/actions/index';
 import { connect } from 'react-redux';
-import { loginSuccess } from '../../redux/actions/index';
+//import { loginSuccess } from '../../redux/actions/index';
 
 class Navigation extends Component {
 
