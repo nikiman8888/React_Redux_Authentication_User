@@ -19,12 +19,13 @@ class Register extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         this.props.userRegisterFetch(this.state);
-        this.props.history.push('/');
+        this.props.history.push('/login');
     }
 
     render() {
         return (
             <div className='register'>
+                <h1>Register page</h1>
                 <form onSubmit={this.handleSubmit} >
                     <label htmlFor='username'>Username</label>
                     <input
